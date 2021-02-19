@@ -14,7 +14,11 @@
 
     img {
         width: 100%;
-        height: auto;
+        // height: auto;
+
+        @media (max-width: 1600px) {
+            width: 300px;
+        }
     }
 }
 
@@ -40,6 +44,25 @@
         text-align: center;
         color: #FFFFFF;
 
+        @media (max-width: 1600px) {
+            font-size: 40px;
+            line-height: 45px;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+
+    @media (max-width: 1600px) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+        line-height: 25px;
     }
 }   
 
@@ -53,6 +76,20 @@
     line-height: 41px;
     color: #2FABE0;
     text-decoration: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    @media (max-width: 1600px) {
+        padding: 15px 20px;
+        font-size: 30px;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+        line-height: 25px;
+    }
 }
 
 .promotion__right-col {
@@ -60,6 +97,10 @@
     img {
         width: 100%;
         height: auto;
+
+        @media (max-width: 1600px) {
+            width: 300px;
+        }
     }
 
 }
