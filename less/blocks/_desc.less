@@ -1,8 +1,8 @@
 .desc {
     margin-bottom: 196px;
-    
-    @media (max-width: 1300px) {
-        margin-bottom: 100px;
+
+    @media (max-width: 1700px) {
+        margin-bottom: 72px;
     }
 }
 
@@ -10,54 +10,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media (max-width: 1300px) {
-        flex-direction: column-reverse;
-    }
 }
 
 .desc__left-col {
     width: 50%;
     display: flex;
     align-items: center;
-    
-    @media (max-width: 1300px) {
-        justify-content: center;
-        width: 65%;
-    }
 }
 
 .img__wrap {
     width: 100%;
     margin-right: 50px;
-}
 
-.img__wrap {
-    width: 100%;
+    &:first-child {
+        margin-right: 0;
+    }
 }
 
 .desc__img1 {
 
 
-    @media (max-width: 1600px) {
-        width: 360px;
+    @media (max-width: 1700px) {
+        width: 351px;
+        height: 446px;
     }
-    // @media (max-width: 1300px) {
-    //     width: auto;
-    //     height: auto;
-    // }
+
+    @media (max-width: 1200px) {
+        width: 300px;
+        height: 355px;
+    }
 }
 
 .desc__img2 {
-    
 
-    @media (max-width: 1600px) {
-        width: 222px;
+    @media (max-width: 1700px) {
+        width: 180px;
+        height: 180px;
     }
-    // @media (max-width: 1300px) {
-    //     width: auto;
-    //     height: auto;
-    // }
+    @media (max-width: 1200px) {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 .desc__right-col {
@@ -75,30 +68,13 @@
             font-weight: 400;
         }
 
-        @media (max-width: 1600px) {
+        @media (max-width: 1700px) {
             font-size: 30px;
+            line-height: 35px;
         }
-        @media (max-width: 1411px) {
-            font-size: 23px;
-            line-height: 28px;
-        }
-
-        @media (max-width: 1300px) {
-            text-align: center;
-
-            br {
-                display: none;
-            }
-        }
-        
-    }
-
-    @media (max-width: 1300px) {
-        width: 100%;
-        margin-bottom: 20px;
-
-        br {
-            display: none;
+        @media (max-width: 1200px) {
+            font-size: 22px;
+            line-height: 29px;
         }
     }
 }
@@ -112,18 +88,12 @@
     text-align: right;
     color: #868686;
 
-    @media (max-width: 1600px) {
-        font-size: 38px;
+    @media (max-width: 1700px) {
+        font-size: 36px;
         line-height: 42px;
     }
-
-    @media (max-width: 1411px) {
-        font-size: 30px;
-        line-height: 42px;
-    }
-
-
-    @media (max-width: 1300px) {
-        text-align: center;
+    @media (max-width: 1200px) {
+        font-size: 28px;
+        line-height: 39px;
     }
 }

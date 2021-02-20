@@ -1,6 +1,9 @@
 .triggers {
     margin-bottom: 157px;
 
+    @media (max-width: 1700px) {
+        margin-bottom: 195px;
+    }
     @media (max-width: 1300px) {
         margin-bottom: 100px;
     }
@@ -13,7 +16,6 @@
 
     @media (max-width: 1300px) {
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 }
 
@@ -31,38 +33,43 @@
         text-align: center;
         color: #868686;
 
+        @media (max-width: 1700px) {
+            font-size: 25px;
+            line-height: 29px;
+        }
+
         span {
             font-weight: 400;
             font-size: 40px;
             line-height: 46px;
 
-            @media (max-width: 1600px) {
-                font-size: 35px;
-                line-height: 40px;
-            }
-            @media (max-width: 1414px) {
+            @media (max-width: 1700px) {
                 font-size: 30px;
                 line-height: 35px;
             }
         }
 
-        @media (max-width: 1600px) {
-            font-size: 30px;
-            line-height: 36px;
-        }
 
-        @media (max-width: 1414px) {
-            font-size: 26px;
-            line-height: 36px;
-        }
-    }
+    }       
 
-    @media (max-width: 1373px) {
-        width: 50%;
-        margin-bottom: 35px;
+    @media (max-width: 1300px) {
+        width: 45%;
+        margin-bottom: 30px;
     }
 }
 
 .triggers__img {
     margin-bottom: 17px;
+
+    @media (max-width: 1700px) {
+        display: none;
+    }
+}
+
+.triggers__img-alt {
+    display: none;
+
+    @media (max-width: 1700px) {
+        display: flex;
+    }
 }
